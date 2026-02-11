@@ -41,10 +41,20 @@ Compte Snowflake avec :
 - Accès à **Streamlit in Snowflake**
 - Accès à **Snowflake Cortex**
 - activation du cross-region inference pour accéder aux modèles hors région
+## 📸 Captures d’écran
 
----
+### ✅ Test Cortex
+![Test Cortex](screens/02_cortex_test.png)
 
-## 📁 Contenu du repository
+### ✅ Application Streamlit
+![Chat Streamlit](sceens/image.png)
 
-Exemple d’arborescence :
+![Chat Streamlit](sceens/partie.png)
+
+![Chat Streamlit](sceens/result.png)
+![Chat Streamlit](sceens/res1.png)
+![Chat Streamlit](sceens/RES3.png)
+
+
+
 
