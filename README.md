@@ -4,14 +4,14 @@
    HAJAR EL FATHI
    NAJOUA EL MANSOUF
 
-# ❄️ Chat Cortex — Streamlit in Snowflake (sans clé OpenAI)
+#  Chat Cortex — Streamlit in Snowflake (sans clé OpenAI)
 
 Application web type **ChatGPT** développée avec **Streamlit in Snowflake** et un LLM via **Snowflake Cortex**.  
 Aucune clé OpenAI n’est utilisée : l’appel au modèle se fait directement via Snowflake (`SNOWFLAKE.CORTEX.COMPLETE`).
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 Permettre à un utilisateur de discuter avec un **LLM supporté par Snowflake Cortex** directement depuis une application **Streamlit** hébergée dans Snowflake.
 
@@ -24,7 +24,7 @@ Fonctionnalités principales :
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 - **Frontend** : Streamlit in Snowflake
 - **Backend LLM** : Snowflake Cortex (`SNOWFLAKE.CORTEX.COMPLETE`)
@@ -33,7 +33,7 @@ Fonctionnalités principales :
 
 ---
 
-## ✅ Prérequis
+##  Prérequis
 
 Compte Snowflake avec :
 - Accès à un **WAREHOUSE**
@@ -41,20 +41,5 @@ Compte Snowflake avec :
 - Accès à **Streamlit in Snowflake**
 - Accès à **Snowflake Cortex**
 - activation du cross-region inference pour accéder aux modèles hors région
-## 📸 Captures d’écran
-
-### ✅ Test Cortex
-![Test Cortex](screens/02_cortex_test.png)
-
-### ✅ Application Streamlit
-![Chat Streamlit](sceens/image.png)
-
-![Chat Streamlit](sceens/partie.png)
-
-![Chat Streamlit](sceens/result.png)
-![Chat Streamlit](sceens/res1.png)
-![Chat Streamlit](sceens/RES3.png)
-
-
-
-
+##  Captures d’écran
+Les captures des résultats sont disponibles dans le dossier `screens/` du repository.
